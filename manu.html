@@ -28,6 +28,7 @@
         background-color: #89472F;
         padding-left: 25px;
         min-width: 470px;
+        border-radius: 10px 10px 0 0
       }
       #navbar li {
         float: left;
@@ -56,6 +57,8 @@
     }
     main{
       background-color: #FFE28A;
+      border-radius: 0 0 10px 10px;
+      color: #361C12;
     }
     #carouselExampleControls{
       padding: 5px;
@@ -63,6 +66,7 @@
     header{
       height: 200px;
       background-color: #361C12;
+      border-radius: 10px;
 
     }
     #head-site {
@@ -83,6 +87,8 @@
     }
     footer{
       background: #FFE28A;
+      border-radius: 10px;
+      color: #361C12;
     }
     .myclr {clear:both; float:none; width:90%; height:1px;}
     #podval {border-top:10px solid #4c281e; margin-top:20px;}
@@ -107,6 +113,45 @@
       margin-left: 10px;
       margin-right: 10px;
     }
+    .content-main{
+      margin: 10px
+    }
+    .about-us{
+
+    }
+    .about-cols{
+      list-style: none;
+
+    }
+    .m{
+      text-align: center;
+      background-color: #754514;
+      border-radius: 10px;
+    }
+    .m2{
+      text-align: center;
+      background-color: #d2691e;
+      border-radius: 10px;
+    }
+    .drinks{
+      list-style: none;
+      border-radius: 10px;
+      padding: 0;
+    }
+    .drink{
+      background-color: #e8a24d;
+      margin: 10px;
+      font-size: 20px;
+      border-radius: 10px;
+      padding-bottom: 10px;
+    }
+    .pr{
+      float: right;
+      margin-right: 15px;
+    }
+    .f{
+      height: 10px;
+    }
     </style>
   </head>
   <body>
@@ -118,8 +163,6 @@
         <ul id="navbar">
           <li><a href="index.html">О НАС</a></li>
           <li class="active"><a href="manu.html">МЕНЮ</a></li>
-          <li><a href="akzii.html">АКЦИИ</a></li>
-          <li><a href="otzivi.html">ОТЗЫВЫ</a></li>
           <li><a href="news.html">НОВОСТИ</a></li>
           <li><a href="clients.html">КЛИЕНТЫ</a></li>
           <li><a href="contacts.html">КОНТАКТЫ</a></li>
@@ -131,13 +174,22 @@
       <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img class="d-block w-100" src="https://sun9-55.userapi.com/c849216/v849216492/1153d/N_HCWf-ukQ0.jpg" alt="First slide">
+            <img class="d-block w-100" src="img/sl1.png" alt="First slide">
           </div>
           <div class="carousel-item">
-            <img class="d-block w-100" src="https://sun9-27.userapi.com/impf/c850324/v850324186/16ee24/4wFSGwGNcDM.jpg?size=537x240&quality=96&sign=d787799582ac4e245cda77483d1bb056&type=share" alt="Second slide">
+            <img class="d-block w-100" src="img/4sl.png" alt="Second slide">
           </div>
           <div class="carousel-item">
-            <img class="d-block w-100" src="https://sun9-22.userapi.com/impf/c858532/v858532678/1f0b6e/jdYvf3kcvNQ.jpg?size=537x240&quality=96&proxy=1&sign=46cade3c1de0c61b670f92da0acc5f40&type=share" alt="Third slide">
+            <img class="d-block w-100" src="img/10sl.png" alt="Third slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="img/12sl.png" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="img/13sl.png" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="img/14sl.png" alt="First slide">
           </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -148,6 +200,36 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="sr-only">Next</span>
         </a>
+   </div>
+   <div class="content-main">
+     <div class="about-us">
+       <h2 class="m">МЕНЮ</h2>
+       <h3 class="m2">Напитки</h3>
+       <ul class="drinks">
+         <li class="drink">&nbsp;&nbsp;&nbsp;<i class="fa fa-coffee" aria-hidden="true"></i><b>&nbsp;&nbsp;&nbsp;&nbsp;Экспрессо (30мл) <div class="pr"> 90р</div></b></li>
+         <li class="drink">&nbsp;&nbsp;&nbsp;<i class="fa fa-coffee" aria-hidden="true"></i><b>&nbsp;&nbsp;&nbsp;&nbsp;Американо (300мл)<div class="pr"> 90р</div></b></li>
+         <li class="drink">&nbsp;&nbsp;&nbsp;<i class="fa fa-coffee" aria-hidden="true"></i><b>&nbsp;&nbsp;&nbsp;&nbsp;Американо с молоком (300мл)<div class="pr"> 100р</div></b></li>
+         <li class="drink">&nbsp;&nbsp;&nbsp;<i class="fa fa-coffee" aria-hidden="true"></i><b>&nbsp;&nbsp;&nbsp;&nbsp;Американо на молоке (300мл)<div class="pr"> 125р</div></b></li>
+         <li class="drink">&nbsp;&nbsp;&nbsp;<i class="fa fa-coffee" aria-hidden="true"></i><b>&nbsp;&nbsp;&nbsp;&nbsp;Капучино (300мл)<div class="pr"> 125р</div></b></li>
+         <li class="drink">&nbsp;&nbsp;&nbsp;<i class="fa fa-coffee" aria-hidden="true"></i><b>&nbsp;&nbsp;&nbsp;&nbsp;Латте (300мл)<div class="pr"> 135р</div></b></li>
+         <li class="drink">&nbsp;&nbsp;&nbsp;<i class="fa fa-coffee" aria-hidden="true"></i><b>&nbsp;&nbsp;&nbsp;&nbsp;Капучино с сиропом (300мл)<div class="pr"> 145р</div></b></li>
+         <li class="drink">&nbsp;&nbsp;&nbsp;<i class="fa fa-coffee" aria-hidden="true"></i><b>&nbsp;&nbsp;&nbsp;&nbsp;Латте с сиропом (300мл)<div class="pr"> 155р</div></b></li>
+         <li class="drink">&nbsp;&nbsp;&nbsp;<i class="fa fa-coffee" aria-hidden="true"></i><b>&nbsp;&nbsp;&nbsp;&nbsp;Раф (300мл)<div class="pr"> 180р</div></b></li>
+       </ul>
+       <h3 class="m2">Выпечка</h3>
+       <ul class="drinks">
+         <li class="drink">&nbsp;&nbsp;&nbsp;<i class="fa fa-birthday-cake" aria-hidden="true"></i><b>&nbsp;&nbsp;&nbsp;&nbsp;Круассан <div class="pr"> 100р</div></b></li>
+         <li class="drink">&nbsp;&nbsp;&nbsp;<i class="fa fa-birthday-cake" aria-hidden="true"></i><b>&nbsp;&nbsp;&nbsp;&nbsp;Рулет <div class="pr"> 200р</div></b></li>
+         <li class="drink">&nbsp;&nbsp;&nbsp;<i class="fa fa-birthday-cake" aria-hidden="true"></i><b>&nbsp;&nbsp;&nbsp;&nbsp;Наполеон <div class="pr"> 190р</div></b></li>
+         <li class="drink">&nbsp;&nbsp;&nbsp;<i class="fa fa-birthday-cake" aria-hidden="true"></i><b>&nbsp;&nbsp;&nbsp;&nbsp;Канноли <div class="pr"> 150р</div></b></li>
+         <li class="drink">&nbsp;&nbsp;&nbsp;<i class="fa fa-birthday-cake" aria-hidden="true"></i><b>&nbsp;&nbsp;&nbsp;&nbsp;Вишневый пирог <div class="pr"> 90р</div></b></li>
+         <li class="drink">&nbsp;&nbsp;&nbsp;<i class="fa fa-birthday-cake" aria-hidden="true"></i><b>&nbsp;&nbsp;&nbsp;&nbsp;Пирожок <div class="pr"> 50р</div></b></li>
+         <li class="drink">&nbsp;&nbsp;&nbsp;<i class="fa fa-birthday-cake" aria-hidden="true"></i><b>&nbsp;&nbsp;&nbsp;&nbsp;Пончик <div class="pr"> 60р</div></b></li>
+       </ul>
+       <div class="f">
+
+       </div>
+       </div>
    </div>
   </main>
     <footer>
