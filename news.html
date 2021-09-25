@@ -58,6 +58,7 @@
     main{
       background-color: #FFE28A;
       border-radius: 0 0 10px 10px;
+      color: #361C12;
     }
     #carouselExampleControls{
       padding: 5px;
@@ -88,6 +89,13 @@
       background: #FFE28A;
       border-radius: 10px;
     }
+    .m{
+      text-align: center;
+      background-color: #754514;
+      border-radius: 10px;
+      color: #FFE28A;
+    }
+
     .myclr {clear:both; float:none; width:90%; height:1px;}
     #podval {border-top:10px solid #4c281e; margin-top:20px;}
     .yellow {width:940px; height:5px; margin:0 auto; background:#ff9c00;}
@@ -121,6 +129,34 @@
       list-style: none;
 
     }
+    .post{
+      display: flex;
+      margin: 20px;
+      width: 90%;
+      height: 180px;
+      background-color: #e8a24d;
+      border-radius: 10px;
+      padding: 20px;
+      text-align: left;
+    }
+    h4{
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+    .post-col2{
+        margin: 0px;
+        padding: 0 0 0 20px;
+    }
+    .post-col{
+
+    }
+    .f{
+      height: 25px
+    }
+    img{
+      border-radius: 10px;
+    }
+
     </style>
   </head>
   <body>
@@ -171,23 +207,37 @@
         </a>
    </div>
    <div class="content-main">
-     <div class="about-us">
-       <h3>КТО МЫ?</h3>
-       <p>«Coffee Bar» — это первая кофейная экосистема в Евроие и, возможно, во всем мире. У нас вы можете попробовать лучший кофе.</p>
-       <p>Мы открылись в России. На сегодня мы являемся трёхкратными чемпионами Европы. В нашей команде несколько Q-грейдеров, много призеров различных чемпионатов от обжарки кофе до чемпионатов по приготовлению напитка. «Coffee Bar» — компания по обжарке кофе в России со своим стилем и концепцией. Наша цель — развитие культуры кофе в Европе.</p>
-       <h3><b>НАШ КОФЕ</b> НЕ ГОРЬКИЙ!</h3>
-       <p>«Coffee Bar» объединяет людей, которых можно назвать одними из лучших в своём деле. Чемпионы Европы по приготовлению кофе, многократные участники и призеры чемпионатов других стран.
-         <br>В компании за подбор зерна отвечают несколько Q-грейдеров. Это гарантирует выбор зерна наивысшего качества.</p>
-       <h3>ПОЧЕМУ <b>ВЫБИРАЮТ НАС</b>?</h3>
-       <ul class="about-cols">
-         <li class="about-col"><img src="img/advantage1.png" width="50px"> ЛУЧШЕЕ ОБОРУДОВАНИЕ</li>
-         <li class="about-col"><img src="img/advantage1.png" width="50px"> ЛУЧШЕЕ ОБОРУДОВАНИЕ</li>
-         <li class="about-col"><img src="img/advantage1.png" width="50px"> ЛУЧШЕЕ ОБОРУДОВАНИЕ</li>
-         <li class="about-col"><img src="img/advantage1.png" width="50px"> ЛУЧШЕЕ ОБОРУДОВАНИЕ</li>
-       </ul>
+       <h3 class="m"> <b>Новости</b> </h3>
+       <div class="post">
+           <div class="post-col">
+             <img src="img/open.png" width="210px">
+           </div>
+           <div class="post-col2">
+             <h4>Открытие сети "Coffee-Bar"</h4>
+             <p><b>25 Июля 2010 года по всей Европе были открыты наши кофейни. Ура! Было много людей и большие скидки!</b> </p>
+           </div>
+       </div>
+       <div class="post">
+           <div class="post-col">
+             <img src="img/5lt.png" width="210px">
+           </div>
+           <div class="post-col2">
+             <h4>Нам 5 лет!</h4>
+             <p><b>На протяжении 5-ти лет наши кофейни готовят чудесный кофе по всей Европе. Ура!</b> </p>
+           </div>
+       </div>
+       <div class="post">
+           <div class="post-col">
+             <img src="img/10.jpg" width="210px">
+           </div>
+           <div class="post-col2">
+             <h4>Нам 10 лет!</h4>
+             <p><b>На протяжении 10-ти лет наши кофейни готовят чудесный кофе по всей Европе. Ура! Ура!</b> </p>
+           </div>
+       </div>
+       <div class="f">
 
-
-     </div>
+       </div>
    </div>
   </main>
     <footer>

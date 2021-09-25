@@ -58,6 +58,7 @@
     main{
       background-color: #FFE28A;
       border-radius: 0 0 10px 10px;
+      color: #361C12;
     }
     #carouselExampleControls{
       padding: 5px;
@@ -88,6 +89,13 @@
       background: #FFE28A;
       border-radius: 10px;
     }
+    .m{
+      text-align: center;
+      background-color: #754514;
+      border-radius: 10px;
+      color: #FFE28A;
+    }
+
     .myclr {clear:both; float:none; width:90%; height:1px;}
     #podval {border-top:10px solid #4c281e; margin-top:20px;}
     .yellow {width:940px; height:5px; margin:0 auto; background:#ff9c00;}
@@ -121,6 +129,38 @@
       list-style: none;
 
     }
+    .post{
+      display: flex;
+      margin: 20px;
+      width: 90%;
+      height: 180px;
+      background-color: #e8a24d;
+      border-radius: 10px;
+      padding: 20px;
+      text-align: left;
+    }
+    h4{
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+    .post-col2{
+        margin: 0px;
+        padding: 0 0 0 20px;
+    }
+    .post-col{
+
+    }
+    .f{
+      height: 25px
+    }
+    .op{
+      font-variant: small-caps;
+      margin: 5px;
+    }
+    img{
+      border-radius: 10px;
+    }
+
     </style>
   </head>
   <body>
@@ -133,7 +173,7 @@
           <li><a href="index.html">О НАС</a></li>
           <li><a href="manu.html">МЕНЮ</a></li>
           <li><a href="news.html">НОВОСТИ</a></li>
-          <li  class="active"><a href="clients.html">КЛИЕНТЫ</a></li>
+          <li class="active"><a href="clients.html">КЛИЕНТЫ</a></li>
           <li><a href="contacts.html">КОНТАКТЫ</a></li>
         </ul>
       </div>
@@ -171,23 +211,37 @@
         </a>
    </div>
    <div class="content-main">
-     <div class="about-us">
-       <h3>КТО МЫ?</h3>
-       <p>«Coffee Bar» — это первая кофейная экосистема в Евроие и, возможно, во всем мире. У нас вы можете попробовать лучший кофе.</p>
-       <p>Мы открылись в России. На сегодня мы являемся трёхкратными чемпионами Европы. В нашей команде несколько Q-грейдеров, много призеров различных чемпионатов от обжарки кофе до чемпионатов по приготовлению напитка. «Coffee Bar» — компания по обжарке кофе в России со своим стилем и концепцией. Наша цель — развитие культуры кофе в Европе.</p>
-       <h3><b>НАШ КОФЕ</b> НЕ ГОРЬКИЙ!</h3>
-       <p>«Coffee Bar» объединяет людей, которых можно назвать одними из лучших в своём деле. Чемпионы Европы по приготовлению кофе, многократные участники и призеры чемпионатов других стран.
-         <br>В компании за подбор зерна отвечают несколько Q-грейдеров. Это гарантирует выбор зерна наивысшего качества.</p>
-       <h3>ПОЧЕМУ <b>ВЫБИРАЮТ НАС</b>?</h3>
-       <ul class="about-cols">
-         <li class="about-col"><img src="img/advantage1.png" width="50px"> ЛУЧШЕЕ ОБОРУДОВАНИЕ</li>
-         <li class="about-col"><img src="img/advantage2.png" width="50px"> ЛУЧШЕЕ ОБОРУДОВАНИЕ</li>
-         <li class="about-col"><img src="img/advantage3.png" width="50px"> ЛУЧШЕЕ ОБОРУДОВАНИЕ</li>
-         <li class="about-col"><img src="img/advantage4.png" width="50px"> ЛУЧШЕЕ ОБОРУДОВАНИЕ</li>
-       </ul>
+       <h3 class="m"> <b>Наши клиенты</b> </h3>
+       <div class="post">
+           <div class="post-col">
+             <img src="img/bill.png" width="110px">
+           </div>
+           <div class="post-col2">
+             <h4>William Henry Gates III</h4>
+             <p class="op">"Довольно вкусный кофе здесь делают, да иместо само по себе уютное и чистое, вот только кресла мне неудобны."</p>
+           </div>
+       </div>
+       <div class="post">
+           <div class="post-col">
+             <img src="img/harry.png" width="125px">
+           </div>
+           <div class="post-col2">
+             <h4>Harry Potter</h4>
+             <p class="op">"Иду в Министерство магии мимо этого кафе часто захожу завтракаю и пью кофе. Волшебно!"</p>
+           </div>
+       </div>
+       <div class="post">
+           <div class="post-col">
+             <img src="img/Steve.png" width="120px">
+           </div>
+           <div class="post-col2">
+             <h4>Стив Джобс</h4>
+             <p class="op">Если я вижу стойку Coffee Bar, то ноги сами несут меня в их сторону, мысли туманятся, руки тянутся за кошельком...2 минуты и я уже вдыхаю запах божественного напитка, ощущаю вкус любимой пенки капучино...</b> </p>
+           </div>
+       </div>
+       <div class="f">
 
-
-     </div>
+       </div>
    </div>
   </main>
     <footer>
